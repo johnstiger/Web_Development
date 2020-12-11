@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheets/content.css">
+    <title>Welcome User</title>
+</head>
+<body>
+    <div class="wrapper">
+        <nav class="navbar">
+            <ul>
+                <li><a href="" class="active">Home</a></li>
+                <li><a href="/Users">Log Out</a></li>
+            </ul>
+        </nav>
+        <div class="center">
+            <center>
+            <h1>Welcome <%= username %> </h1>
+        </center>
+            <p>Your access token is :</p> <%= access %>
+            <br>
+            <p>Your refresh token is :</p> <%= refresh %>
+
+            <div class="buttons">
+                <button>Explore More</button>
+                <button class="btn">Join Clubs</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

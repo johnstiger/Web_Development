@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <link rel="stylesheet" href="/stylesheets/register.css">
+    
+    <style>
+    .container{
+        width: 400px;
+        height: 350px;
+        background: #fff;
+        color: #000;
+        top: 50%;
+        left: 50%;
+        position:absolute;
+        transform: translate(-50%,-50%);
+        box-sizing: border-box;
+        padding:70px 30px;
+        border-radius: 10px;
+    }
+    
+    
+    </style>
+</head>
+<body>
+
+
+<div class = "container">
+ <center>   <h1>Registration Form</h1></center>
+ <form action="/Users/register" method="POST">
+    <center><i class="fas fa-user-circle text-center"></i></center>
+        <br>
+        <input type="text" placeholder="Enter username" class="modal-body-form" name="username" style="width: 100%;">
+        <input type="text" placeholder="Enter email" class="modal-body-form" name="email" style="width: 100%;">
+        <input type="password" name="password" id="password" placeholder="Enter password"
+            class="modal-body-form" style="width: 100%;">
+            <br>
+            <br>
+        <button type="submit" class="modal-body-form btn btn-primary" style="width: 100%;">
+            Register
+        </button>
+    </form>
+    </div>
+    </form>
+    </div>
+
+   
+</body>
+</html>
